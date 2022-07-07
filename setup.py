@@ -9,6 +9,6 @@ setup(
     license='MIT',
     url='https://github.com/sixfab/Sixfab_RPi_CellularIoT_App_Shield',
     dependency_links  = ['https://github.com/adafruit/Adafruit_Python_GPIO/tarball/master#egg=Adafruit-GPIO-0.9.3'],
-	install_requires  = ['Adafruit-GPIO>=0.9.3', 'pyserial', 'adafruit-ads1x15'],
+	install_requires  = ['Adafruit-GPIO>=0.9.3', 'pyserial', 'adafruit-ads1x15', 'smbus'],
     packages=find_packages()
 )
